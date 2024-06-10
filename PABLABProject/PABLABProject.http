@@ -1,0 +1,21 @@
+﻿@PABLABProject_HostAddress = https://localhost:7049
+
+POST {{PABLABProject_HostAddress}}/person
+###
+
+POST {{PABLABProject_HostAddress}}/person
+
+
+{
+  "email": "john@example.com",
+  "name": "John Doe"
+}
+###
+
+POST {{PABLABProject_HostAddress}}/person
+Content-Type: application/json
+{
+  "email": "john@example.com",
+  "name": "John Doe"
+}
+###
